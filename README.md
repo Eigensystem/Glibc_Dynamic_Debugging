@@ -66,4 +66,4 @@ $ ldd house_of_lore
 warning: working around a Linux kernel bug by creating a hole of 2093056 bytes in ‘your_elf_name’
 ```
 
-It is because you have a old version of patchelf. Visit official repo above to get latest version than you will solve the problem :D
+It is because you have a old version of patchelf. Visit official repo above to get latest version then you will solve the problem :D
