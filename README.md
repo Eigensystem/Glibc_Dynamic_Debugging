@@ -26,11 +26,17 @@ sudo apt install patchelf
 1. Clone the repo
 2. (To make it more convenient, you may write a alias in your shell config file)
 
+- Using amd64 version of ld and libc by default
 ```bash
 ./change.sh dest_libc_version path_to_your_elf
 ```
 
-1. Enjoy your new libc
+- Using i386 version of ld and libc:
+```bash
+./change.sh dest_libc_version i386 path_to_your_elf
+```
+
+3. Enjoy your new libc
 
 ## Examples
 
